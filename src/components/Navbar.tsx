@@ -82,17 +82,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
         </nav>
 
         {/* Desktop Actions */}
-        <div className="hidden lg:flex items-center space-x-5">
-          <a
-            id="nav-quick-call"
-            href={`tel:${salonData.phone}`}
-            className="inline-flex items-center space-x-1.5 text-xs tracking-wider transition-colors py-1 text-white/90 hover:text-[#FF2A85]"
-            title="Call Sonia Beauty Salon"
-          >
-            <Phone className="w-3.5 h-3.5 text-[#FF2A85]" />
-            <span className="font-medium">{salonData.phone}</span>
-          </a>
-
+        <div className="hidden lg:flex items-center">
           <button
             id="nav-book-appointment-cta"
             onClick={() => onOpenBooking()}
@@ -155,7 +145,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
                 className="w-full border border-white/20 text-white hover:border-[#FF2A85] hover:text-[#FF2A85] py-3 px-4 rounded-sm text-center text-xs uppercase tracking-[0.18em] font-medium flex items-center justify-center space-x-2 transition-colors"
               >
                 <Phone className="w-4 h-4 text-[#FF2A85]" />
-                <span>Call {salonData.phone}</span>
+                <span>Call Salon</span>
               </a>
             </div>
           </div>
