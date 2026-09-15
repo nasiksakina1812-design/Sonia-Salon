@@ -1,0 +1,6 @@
+{
+  "name": "Sonia Beauty Salon",
+  "description": "Visit Sonia Beauty Salon in Mazgaon, Byculla, Mumbai for hair, beauty and self-care services. Explore our services, see our work and book your appointment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
