@@ -48,11 +48,16 @@ export const InstagramSection: React.FC = () => {
               rel="noopener noreferrer"
               className="group relative overflow-hidden rounded-xs aspect-square bg-[#141414] border border-white/10 hover:border-[#FF2A85] transition-all duration-300 shadow-xs hover:shadow-lg block"
             >
+              {/* Permanent Instagram badge on card */}
+              <div className="absolute top-2.5 right-2.5 w-7 h-7 rounded-full bg-black/60 backdrop-blur-xs flex items-center justify-center text-white/90 group-hover:text-[#FF2A85] group-hover:bg-black/80 transition-colors z-10 shadow-xs">
+                <Instagram className="w-3.5 h-3.5" />
+              </div>
+
               <img
                 src={item.image}
                 alt={item.caption}
                 referrerPolicy="no-referrer"
-                className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105 brightness-90 group-hover:brightness-100"
+                className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
                 loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-4">

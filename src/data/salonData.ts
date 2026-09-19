@@ -85,7 +85,7 @@ export const servicesData: ServiceItem[] = [
     category: "NAILS",
     title: "Luxury Manicure & Pedicure",
     shortDescription: "Warm soak, gentle scrub, cuticle care, and nourishing massage for tired hands and feet.",
-    image: "https://images.unsplash.com/photo-1519014816548-bf78515458ff?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=800&q=80",
     priceNote: "Pricing on consultation"
   },
   {
@@ -173,13 +173,13 @@ export const galleryData: GalleryItem[] = [
     id: "gal-10",
     title: "Sculpted Ombre Chrome Gel Set",
     category: "Nails",
-    image: "https://images.unsplash.com/photo-1519014816548-bf78515458ff?auto=format&fit=crop&w=1000&q=80"
+    image: "https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=1000&q=80"
   },
   {
     id: "gal-11",
     title: "Radiant Hydra Glow Facial",
     category: "Skin",
-    image: "https://images.unsplash.com/photo-1512290900672-1f5be669d270?auto=format&fit=crop&w=1000&q=80"
+    image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1000&q=80"
   },
   {
     id: "gal-12",
@@ -202,7 +202,7 @@ export const instagramMoments = [
   },
   {
     id: "ig-3",
-    image: "https://images.unsplash.com/photo-1519014816548-bf78515458ff?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=600&q=80",
     caption: "Self-care Sunday rituals"
   },
   {
