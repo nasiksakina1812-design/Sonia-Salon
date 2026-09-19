@@ -40,6 +40,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenBooking, onExp
               <img
                 src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=1200&q=85"
                 alt="Sonia Beauty Salon warm and sophisticated studio atmosphere"
+                referrerPolicy="no-referrer"
                 className="w-full aspect-[16/11] object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                 loading="lazy"
               />

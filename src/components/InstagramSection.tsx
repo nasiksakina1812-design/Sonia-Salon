@@ -51,6 +51,7 @@ export const InstagramSection: React.FC = () => {
               <img
                 src={item.image}
                 alt={item.caption}
+                referrerPolicy="no-referrer"
                 className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105 brightness-90 group-hover:brightness-100"
                 loading="lazy"
               />

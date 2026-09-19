@@ -87,6 +87,7 @@ export const GallerySection: React.FC = () => {
                   <img
                     src={item.image}
                     alt={item.title}
+                    referrerPolicy="no-referrer"
                     className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-108"
                     loading="lazy"
                   />

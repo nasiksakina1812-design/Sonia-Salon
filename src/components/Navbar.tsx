@@ -29,7 +29,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
     { label: 'Services', href: '#services' },
     { label: 'Our Work', href: '#gallery' },
     { label: 'Reviews', href: '#reviews' },
-    { label: 'Contact', href: '#contact' },
+    { label: 'Booking', href: '#booking' },
   ];
 
   const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {

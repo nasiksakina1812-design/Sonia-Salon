@@ -106,6 +106,7 @@ export const SignatureExperience: React.FC<SignatureExperienceProps> = ({ onOpen
               <img
                 src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1200&q=85"
                 alt="Hair care and personalized styling ritual at Sonia Beauty Salon"
+                referrerPolicy="no-referrer"
                 className="w-full aspect-[4/3] sm:aspect-[16/12] object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                 loading="lazy"
               />

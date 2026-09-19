@@ -25,6 +25,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onExploreServices }) 
         <img
           src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=2000&q=85"
           alt="Sonia Beauty Salon ambience and styling"
+          referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center brightness-[0.62]"
           loading="eager"
           fetchPriority="high"

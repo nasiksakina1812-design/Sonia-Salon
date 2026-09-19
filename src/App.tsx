@@ -15,8 +15,6 @@ import { InstagramSection } from './components/InstagramSection';
 import { ReviewsSection } from './components/ReviewsSection';
 import { WhyChooseUs } from './components/WhyChooseUs';
 import { BookingSection } from './components/BookingSection';
-import { ContactSection } from './components/ContactSection';
-import { Footer } from './components/Footer';
 import { MobileBookingBar } from './components/MobileBookingBar';
 
 export default function App() {
@@ -82,13 +80,7 @@ export default function App() {
 
         {/* Primary Appointment Conversion Section */}
         <BookingSection preselectedService={selectedServiceForBooking} />
-
-        {/* Contact Information & Embedded Google Map */}
-        <ContactSection />
       </main>
-
-      {/* Deep Espresso Footer */}
-      <Footer onOpenBooking={() => handleOpenBooking()} />
 
       {/* Fixed Floating CTA on Mobile */}
       <MobileBookingBar onOpenBooking={() => handleOpenBooking()} />

@@ -101,6 +101,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
                   <img
                     src={service.image}
                     alt={service.title}
+                    referrerPolicy="no-referrer"
                     className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-108 brightness-90 group-hover:brightness-100"
                     loading="lazy"
                   />
